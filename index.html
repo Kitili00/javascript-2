@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+</header>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="content">
+		<div class="project1">
+			<h2>Project 1</h2>
+			<p>This is a sample project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p><a href="https://github.com/Kitili00/javascript-learning">View Project</a></p>
+		</div>
+		<div class="project2">
+			<h2>Project 2</h2>
+			<p>This is another sample project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p><a href="https://github.com/Kitili00/New-Javascript">View Project</a></p>
+		</div>
+		<div class="project3">
+			<h2>Project 3</h2>
+			<p>This is yet another sample project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p><a href="#">View Project</a></p>
+		</div>
+        <div class="project4">
+			<h2>Project 4</h2>
+			<p>This is a sample project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p><a href="#">View Project</a></p>
+		</div>
+        <div class="project5">
+			<h2>Project 5</h2>
+			<p>This is a sample project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p><a href="#">View Project</a></p>
+		</div>
+        <div class="project6">
+			<h2>Project 6</h2>
+			<p>This is a sample project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p><a href="#">View Project</a></p>
+		</div>
+	</div>
+</div>
+<div class="login page">
+    <h3>Login Page</h3>
+    <p>Simple login page  for demonstration purposes</p>
+    <label for="UserName" id="userName">UserName</label>
+    <input type="text" id="myText" placeholder="Username"><br><br><br>
+    <label for="Password" id="myPassword">Password</label>
+    <input type="password" id="myPassword" placeholder="Password"><br><br>
+    <input type="button" id="mySubmit" value="Submit">
+    <br><br>
+</div>
+<button id="myButton" onclick="displayDate()">The time is?</button>
+<script>
+    function displayDate() {
+        document.getElementById('myButton').innerHTML = Date();
+    };
+</script>
+<script src="script.js"></script>
+</body>
+</html>
